@@ -1,0 +1,227 @@
+html {
+    scrollbar-color: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Exo", sans-serif;
+}
+
+image {
+    width: 100%;
+}
+
+section {
+    padding: 100px 0;
+    background: white;
+}
+
+.section_title {
+    margin-bottom: 30px;
+}
+
+/*---------------SAYFA ARALARINDAKİ BÖLÜM BAŞLIKLARI-------------*/
+
+.section_title h2 {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.section_title h2:hover {
+    background-color: aquamarine;
+}
+
+/* -----------------HEADER------------------- */
+header {
+    background: white;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 4);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    margin: auto -50px;
+    cursor: pointer;
+}
+
+/* -----------------MENÜLERİN HİZALANMASI------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+/* -----------------MENÜ TUŞLARININ YAN YANA HİZALANMASI, STİL AYARLARI VS.------------------- */
+.nav_links {
+    display: flex;
+}
+
+.nav_links li a {
+    margin-left: 15px;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav_links li a:hover {
+    background: blue;
+}
+
+.navbar .logo img {
+    width: 90px;
+}
+
+/* ANASAYFA */
+.inner_anasayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://cdn.create.vista.com/api/media/medium/553047486/stock-photo-surprised-young-man-white-shirt?token=");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+child_anasayfa {
+    padding-top: 0px;
+    flex-basis: 45%;
+    margin-top: 0px;
+}
+
+child_anasayfa h1 {
+    font-size: 50px;
+    color: black;
+}
+.span_child {
+    color: blue;
+}
+.child_anasayfa p {
+    font-size: 25px;
+
+    margin-bottom: 12px;
+}
+.btn {
+    background: #24caac;
+    padding: 12px 28px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid #24caac;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.btn:hover {
+    background: transparent;
+    letter-spacing: 2px;
+}
+
+/* Moda */
+
+.innersoftware {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.innersoftware_child {
+    flex-basis: 31%;
+    color: black;
+    padding: 25px 20px;
+    background: rgba(55, 66, 80, 281);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in;
+}
+.innersoftware_child:hover {
+    border: 1px solid #24caac;
+}
+
+.innersoftware_child .icon {
+    font-size: 25px;
+    color: #24caac;
+}
+.innersoftware_chil h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+.innersoftware_child p {
+    font-size: 16px;
+}
+/*ELEKTRONİK*/
+.inner_courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    margin: 0 auto;
+}
+.child_courses {
+    flex-wrap: wrap;
+    color: black;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.child_courses img {
+    width: 300px;
+}
+
+.child_coursess:hover {
+    border: 1px solid #24caac;
+}
+
+.child_courses .detail ul {
+    display: flex;
+}
+
+.child_courses .detail ul li {
+    color: gold;
+}
+.inner_testi {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+}
+.child_testi {
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 50%;
+}
+.child_testi img {
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.testi_img img {
+    border-radius: 50%;
+}
+.test_highlight {
+    color: #24caac;
+    margin: 10px 0;
+    display: inline;
+}
